@@ -78,8 +78,6 @@ h3 {
     background-color: #98b684;
 }
 
-
-
 #about h3 {
     color: #FFFFF0;
     font-family:'Dancing Script', cursive ;
@@ -109,8 +107,11 @@ h3 {
 }
 
 #portfolio img {
-    border: 1px #8a9086 solid;
+    border: 3px #8d8741 solid;
     border-radius: 5%;
+    width: 300px;
+    margin: 0 auto;
+   
 }
 
 #portfolio h3 {
@@ -149,23 +150,24 @@ h3 {
 
 #contact .full-width {
     padding: 200px 0;
-    margin-left: 150px;
+    margin-left: auto;
+    text-align: center;
 }
 
 #contact img#contact-img {
     border: 12px solid #ffffff;
-    margin-left: 0;
 }
 
 #socialmedia-header, #contact ul {
-    padding-left: 0;
+    display: inline-block;    
 }
 
 #contact h3 {
     color: #FFFFF0;
     font-family:'Dancing Script', cursive ;
     font-size: 36px;
-    padding-left: 350px; 
+    padding-left: auto; 
+    text-align: center;
 }
 
 #contact h4 {
@@ -184,17 +186,17 @@ h3 {
 #contact ul {
     color: #FFFFF0;
     list-style: none;
+    padding-left: 0;
 }
 
 #contact ul li {
     color:#FFFFF0;
-    display: inline-block;    
+    display: inline-block; 
+    align-items: center;
 }
 
 #contact ul img {
     color: #FFFFF0;
-    padding-right: 48px;
-
 }
 
 .h5 {
