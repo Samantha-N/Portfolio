@@ -1,7 +1,7 @@
 /*****BASE STYLES*****/
 
 body {
-    color: #8d8426;
+    color: #FFFFFF;
     font-family: 'Source Sans Pro', sans-serif ;
 }
 
@@ -26,14 +26,16 @@ body {
 /*****HEADER*****/
 
 header {
-	height: 800px;
-    background: url('../img/succulent-background.jpg');
-    background-size: cover;
-	background-position: center;	    
+	height: 600px;
+    background-image: url('../img/circle.jpg');
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color:#FEFFED;
 }
 
 header h1 {
-    color: #8d8741;
+    color: #8860d0;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     padding: 0 0 10px 10px;
@@ -49,7 +51,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #8d8741;
+    color: #8860d0;
     font-family:'Quicksand', sans-serif; 
     font-size: 18px;
     padding-left: 20px;
@@ -57,29 +59,37 @@ nav ul li a {
 
 header h2 {
     clear: left;
-    color: #8d8426;
+    color: #8860d0;
     font-family: 'Lora', serif;
     font-size: 72px;
     line-height: 80px;
     padding: 0 0 25px 10px;
 }
 
-h3 {
-    padding-left: 20px;
+.h3 {
+    
+    color: #8860d0;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    padding-left: 20px; 
 }
 
 /*****ABOUT*****/
 
 #about .full-width {
-    padding: 80px 0;
+    height: 600px;
+    padding: 80 0;
+    text-align: center;
 }
 
 #about {
-    background-color: #98b684;
+    background-color: #5680e9;
+    padding-top: 250px;
 }
 
+
 #about h3 {
-    color: #FFFFF0;
+    color: #FFFFFF;
     font-family:'Dancing Script', cursive ;
     font-size: 36px;
     text-align: center;
@@ -87,7 +97,7 @@ h3 {
 }
 
 #about p {
-    color: #FFFFF0;
+    color: #FFFFFF;
     font-size: 21px;
     line-height: 40px;
     padding-left: 50px;
@@ -97,7 +107,7 @@ h3 {
 /*****PORTFOLIO*****/
 
 #portfolio {
-    background-color:#e9e8e4;
+    background-color:#FEFFED;
     text-align: center;
 }
 
@@ -107,7 +117,7 @@ h3 {
 }
 
 #portfolio img {
-    border: 3px #8d8741 solid;
+    border: 3px #FEFFED solid;
     border-radius: 5%;
     width: 300px;
     margin: 0 auto;
@@ -115,6 +125,7 @@ h3 {
 }
 
 #portfolio h3 {
+    color: #8860d0;
     display: inline-block;
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
@@ -127,7 +138,7 @@ h3 {
 }
 
 #portfolio p {
-    color: #8d8741;
+    color: #8860d0;
     font-family: 'Lora', serif;
     font-size: 18px;
     line-height: 30px;
@@ -135,7 +146,7 @@ h3 {
 }
 
 #portfolio h4 {
-    color: #8d8741;
+    color: #8860d0;
     font-size: 20px;
     line-height: 32px;
     margin: 0 auto;
@@ -145,7 +156,7 @@ h3 {
 /*****CONTACT*****/
 
 #contact {
-    background-color: #98b684;
+    background-color: #5680e9;
 }
 
 #contact .full-width {
@@ -155,7 +166,7 @@ h3 {
 }
 
 #contact img#contact-img {
-    border: 12px solid #ffffff;
+    border: 12px solid #FFFFFF;
 }
 
 #socialmedia-header, #contact ul {
@@ -163,7 +174,7 @@ h3 {
 }
 
 #contact h3 {
-    color: #FFFFF0;
+    color: #FFFFFF;
     font-family:'Dancing Script', cursive ;
     font-size: 36px;
     padding-left: auto; 
@@ -171,36 +182,36 @@ h3 {
 }
 
 #contact h4 {
-    color: #FFFFF0;
+    color: #FFFFFF;
     font-family: 'Lora', serif;
     font-size: 26px;
     line-height: 44px;
 }
 
 #contact a {
-    color: #FFFFF0;
+    color: #FFFFFF;
     font-size: 28px;
     font-weight: bold;
 }
 
 #contact ul {
-    color: #FFFFF0;
+    color: #8860d0;
     list-style: none;
     padding-left: 0;
 }
 
 #contact ul li {
-    color:#FFFFF0;
+    color:#FFFFFF;
     display: inline-block; 
     align-items: center;
 }
 
 #contact ul img {
-    color: #FFFFF0;
+    color: #FFFFFF;
 }
 
 .h5 {
-    color: #FFFFF0;
+    color: #FFFFFF;
     font-family:'Quicksand', sans-serif; 
     font-size: 18px;
     text-align: center;
@@ -209,5 +220,5 @@ h3 {
 }
 
 p {
-    color: #FFFFF0;
+    color: #FFFFFF;
 }
